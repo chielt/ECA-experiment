@@ -1,0 +1,76 @@
+#container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+div.part {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+a.btn-next, input[type=submit] {
+  border: 0;
+  text-decoration: none;
+  color: #fff;
+  background: green;
+  border-radius: 3px;
+  padding: 3px 10px;
+  font-size: 1.2em;
+}
+
+ul#answers li {
+  display: inline;
+}
+      
+div#instructions {
+  margin: 30px;
+}
+
+div#instructions span {
+  font-weight: bold;
+  font-size: 2em;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px 30px;
+  display: block;
+}
+div#start {
+  height: 100px;
+  margin: 150px 30px;
+  paddingl 20px;
+  text-align: center;
+}    
+
+#btn-start {
+  display: inline-block;
+  background: green;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 4em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+div.task {
+  margin: 200px 0;
+  text-align: center;
+}
+
+div.task img {
+  border: 3px solid transparent;
+}
+
+div.task img:hover, div.task img:focus {
+  border: 3px solid green;
+}
+
+.hidden { display: none; }
+
+
+p.task-instructions {
+  font-size: 1.5em;
+}
+}

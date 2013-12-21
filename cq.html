@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Experiment</title>
+	<link href="css/styles.css" rel="stylesheet" media="screen">
+	<link href="css/ui-lightness/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+	<div id="container">
+		<div class="part questionaire">
+			<p>Please select the answer that best describes your opinion</p>
+
+			<form action="savedata.php" method="post">
+				<strong style="font-size: 1.4em">It was easier to understand</strong>
+				<section>   
+				    <span class="tooltip"></span>   
+				    <span>Text/Graphic Interface</span>
+				    <div id="slider-CQ1" style="display: inline-block; width:60%;" ></div>
+				    <span>Agent</span>
+				    <br>
+				    <input type="hidden" name="CQ1" id="CQ1">
+				</section>
+				<br>
+				<strong style="font-size: 1.4em">I had more correct answers with the text/graphics interface</strong>
+				<section>   
+				    <span class="tooltip"></span>   
+				    <span>Text/Graphic Interface</span>
+				    <div id="slider-CQ2" style="display: inline-block; width:60%;" ></div>
+				    <span>Agent</span>
+				    <br>
+				    <input type="hidden" name="CQ2" id="CQ2">
+				</section>
+				<br>
+				<strong style="font-size: 1.4em">The interface was better overall</strong>
+				<section>   
+				    <span class="tooltip"></span>   
+				    <span>Text/Graphic Interface</span>
+				    <div id="slider-CQ3" style="display: inline-block; width:60%;" ></div>
+				    <span>Agent</span>
+				    <br>
+				    <input type="hidden" name="CQ3" id="CQ3">
+				</section>
+				<br>
+				<input type="submit" value="Next" id="btn-next">
+			</form>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
